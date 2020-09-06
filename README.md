@@ -20,3 +20,9 @@ The function `scattertext()`, which is inside the file:
 (Out of the 3 sets, I took the "train" set).  
 
 You don't need to download it ahead of time, the code will download it for you if it doesn't fine the file in the local folder.  
+
+
+#### Next
+- Change the py file to be a NB that sources the basic scattertext() function (which would live in a py file)  
+- Maybe transition to COLAB, as I believe I can get the HTML visual scattertext to work on COLAB (like I know how to deploy a streamlit webapp on COLAB)  
+- Implement my own set of text preprocessing (stopwords, grouping, lemmatization, etc.) by probing the `corpus` variable after it's created  
