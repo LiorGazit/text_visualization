@@ -90,7 +90,7 @@ if __name__ == "__main__":
     df = df_processed.assign(
         parse=lambda df: df.sentence.apply(st.whitespace_nlp_with_sentences)
     )
-    
+
     category_column = 'binary'
     positive_category = 'True'
     positive_category_pretty_name = 'Pain_Diagnosed'
