@@ -1,3 +1,6 @@
+# Data file (should be downloaded for each user)
+Medical Information Extraction Pubmed train.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
